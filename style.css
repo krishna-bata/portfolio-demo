@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 :root {
     --black-color: #000000;
     --primary-text-color: white;
