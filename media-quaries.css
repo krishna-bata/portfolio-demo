@@ -1,0 +1,177 @@
+@media screen and (max-width: 1150px) {
+    .skills-card {
+        width: 45%;
+    }
+
+    .main-footer-cards {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .blog-card img {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 897px) {
+    .main-nav {
+        overflow: initial;
+    }
+
+    .nav-links ul {
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        padding-block: 30px;
+        transition: left 0.23s ease-out;
+    }
+
+    .nav-links ul.toggle {
+        left: 0;
+    }
+
+    .nav-toggle {
+        display: inline;
+        cursor: pointer;
+    }
+
+    .main-header {
+        flex-direction: column-reverse;
+    }
+
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-me-right {
+        width: 100%;
+    }
+
+    .about-me-left {
+        width: 100%;
+    }
+
+    .projects-grid-conatiner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog-card img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .resume-card {
+        width: 100%;
+    }
+
+    .services-card {
+        width: 48%;
+    }
+
+    .skills-card {
+        width: 100%;
+    }
+
+    .projects-grid-conatiner {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-card img {
+        height: 220px;
+    }
+
+    .hire-me-card {
+        width: 46%;
+    }
+
+    .contact-me-card {
+        width: 40%;
+    }
+
+    .contact-me-card .icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact-me-form {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .contact-me-form-left {
+        width: 100%;
+    }
+
+    .contact-me-form-right {
+        width: 100%;
+    }
+
+    .main-footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    h5 {
+        font-size: 0.6rem;
+    }
+
+    .main-header-left h1 {
+        font-size: 3.5rem;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+
+    .blog-card img {
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .services-card {
+        width: 100%;
+    }
+
+    .hire-me-card {
+        width: 100%;
+    }
+
+    .contact-me-card {
+        width: 100%;
+    }
+
+    .contact-me-card .icon {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 375px) {}
